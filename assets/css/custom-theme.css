@@ -1,0 +1,84 @@
+/* Set your custom color here ( Note: This only works on latest browsers. 
+Check compatibility here: https://caniuse.com/css-variables ) */
+:root{
+    --custom-color: #daa520;
+}
+
+::selection {
+    background-color: var(--custom-color);
+}
+
+.navbar-brand span {
+    color: var(--custom-color);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: var(--custom-color);
+}
+
+/* Background image generated from: https://qrohlf.com/trianglify-generator/ */
+.section.background-image {
+    background-image: url(../images/polygonal-bg-yellow.png);
+}
+
+.btn-outline:hover {
+    color: var(--custom-color);
+}
+
+.btn-outline:focus {
+    color: var(--custom-color);
+}
+
+.color-text {
+    color: var(--custom-color);
+}
+
+.color-icon {
+    color: var(--custom-color);
+}
+
+.submit-btn {
+    background-color: var(--custom-color);
+    border-color: var(--custom-color);
+}
+
+.submit-btn:hover {
+    border-color: var(--custom-color);
+    background-color: var(--custom-color);
+}
+
+.img-box ul li {
+    border: 1px solid var(--custom-color);
+}
+
+.img-box a:hover li {
+    color: var(--custom-color);
+}
+
+a {
+    color: var(--custom-color);
+}
+
+a:hover {
+    color: var(--custom-color);
+}
+
+.colored-section{
+    background-color: var(--custom-color);
+}
+
+.card .name {
+    color: var(--custom-color);
+}
+
+.card .stats{
+    color: var(--custom-color);
+}
+
+.t-facebook, .t-twitter, .t-google{
+    color: var(--custom-color) !important;
+}
+
+.socials a:hover i {
+    background-color: var(--custom-color);
+}

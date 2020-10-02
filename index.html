@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="zxx"><!--<![endif]-->
+
+<head>
+    <!-- Basic Page Needs
+    ====================================================================== -->
+    <meta charset="UTF-8">
+    <title>LinerPro | One Page Professional Bootstrap Website Template</title>
+    <meta name="description" content="LinerPro One page Professional responsive website template based on Bootstrap Framework">
+    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, responsive, template">
+    <meta name="author" content="Liner Pro. Faizan Saiyed">
+
+
+    <!-- Mobile Specific Meta
+    ====================================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- Favicon
+    ====================================================================== -->
+    <!-- icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="80x80" href="icon.png">
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="ios-icon.png">
+    <!-- multiple icons for IE -->
+    <meta name="msapplication-square310x310logo" content="icon_largetile.png">
+
+
+
+    <!-- Browser Theaming
+    ====================================================================== -->
+    <!-- Chrome, Firefox, Opera -->
+    <meta name="theme-color" content="#292929" />
+    <!-- Windows Phone -->  
+    <meta name="msapplication-navbutton-color" content="#292929" />  
+    <!-- iOS Safari -->  
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    
+    <!-- CSS
+    ====================================================================== -->
+    <!-- Bootstrap Framework -->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- CDN Link to Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Line Icons (https://linea.io/) -->
+    <link rel="stylesheet" type="text/css" href="assets/linea-fonts/basic-icons/styles-basic.css">
+    <!-- Main Theme Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
+
+    <!-- Color Options (If no theme selected, default Green Theme will be applied)
+    ====================================================================== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/yellow-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/red-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/blue-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/custom-theme.css"> -->
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- Navbar Section
+    ===================================================================== -->
+    <header>
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#home">Liner<span>Pro</span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-2">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a class="nav-links" href="#home">Home</a></li>
+                        <li><a class="nav-links" href="#approach">Our Approach</a></li>
+                        <li><a class="nav-links" href="#why">Why Us</a></li>
+                        <li><a class="nav-links" href="#services">Services</a></li>
+                        <li><a class="nav-links" href="#features">Features</a></li>
+                        <li><a class="nav-links" href="#works">Portfolio</a></li>
+                        <li><a class="nav-links" href="#team">Team</a></li>
+                        <li><a class="nav-links" href="#testimonials">Testimonials</a></li>
+                        <li><a class="nav-links" href="#" data-toggle="modal" data-target="#contactus">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>           
+
+    </header>
+    <!-- Ends Navbar Section -->
+
+    <!-- Contact Form Modal
+    ======================================================================= -->
+    <div id="contactus" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><span class="bold">Contact</span> Us</h4>
+                </div>
+                <form id="contact" name="contact" action="mail.php" method="POST">
+                    <div class="modal-body">
+                            <input type="text" class="form-control" placeholder="Full Name" name="name" id="name" required>
+                            <input type="email" class="form-control" placeholder="Email Address" name="email" id="email" required>
+                            <input type="text" class="form-control" placeholder="Phone Number" name="phone" id="phone">
+                            <input type="text" class="form-control" placeholder="Subject" name="subject" id="subject">
+                            <textarea class="form-control" rows="5" placeholder="Enter Message..." name="message" id="message" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-default submit-btn" id="submit" name="submit">
+                            <span class="paperplane-icon fa fa-paper-plane fa-fw"></span> Send
+                        </button>
+                        <button type="button" class="btn btn-default cancel-btn" data-dismiss="modal">
+                            <span class="times-icon fa fa-times fa-fw"></span> Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ends Contact Form Modal  -->
+
+    <!-- Home Hero Section
+    ======================================================================= -->
+    <section id="home" class="section home-section background-image">
+        <div class="container">
+            <div class="row" style="margin-bottom: 8%;">
+                <div class="col-md-12 text-center">
+                    <h1>Website Design &amp; Development</h1>
+                    <strong>SIMPLE. YET, EFFECTIVE &amp; IMPRESSIVE!</strong>
+                    <p>We build an awesome website quickly; which you can control easily!</p>
+                    <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
+                    <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
+                    <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Home Hero Section -->
+
+    <!-- Our Approach Section
+    ======================================================================= -->
+    <section id="approach" class="section" style="padding: 7% 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>New generation websites by <span class="bold">New generation designers.</span></h1>
+                    <h1>For new generation entrepreneurs.</h1>
+                    <p>With latest technologies &amp; design trends!</p>
+                </div>
+            </div>
+
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-6 text-center">
+                    <span class="color-icon icon-basic-webpage-multiple icon-4x"></span>
+                    <h3 class="uppercase">RESPONSIVE, USER-FRIENDLY DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <span class="color-icon icon-basic-mixer2 icon-4x"></span>
+                    <h3 class="uppercase">YOU CONTROL YOUR WEBSITE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Our Approach Section -->
+
+    <!-- Our Strengths Section
+    ======================================================================= -->
+    <section id="ourstrenghts" class="section colored-section" style="padding: 7% 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Build flexible, design-driven<br>websites with ease.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="tile-progress">
+                        <div>
+                            <p><strong>HTML, CSS, JavaScript</strong> <span class="pull-right">95.5%</span></p>
+                        </div>
+                        <div class="tile-progressbar">
+                            <span data-fill="95.5%" style="width: 95.5%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="tile-progress">
+                        <div>
+                            <p><strong>PHP</strong> <span class="pull-right">80.5%</span></p>
+                        </div>
+                        <div class="tile-progressbar">
+                            <span data-fill="80.5%" style="width: 80.5%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="tile-progress">
+                        <div>
+                            <p><strong>Adobe Photoshop</strong> <span class="pull-right">90.0%</span></p>
+                        </div>
+                        <div class="tile-progressbar">
+                            <span data-fill="90.0%" style="width: 90.0%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="tile-progress">
+                        <div>
+                            <p><strong>Android Native</strong> <span class="pull-right">65.5%</span></p>
+                        </div>
+                        <div class="tile-progressbar">
+                            <span data-fill="65.5%" style="width: 65.5%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="tile-progress">
+                        <div>
+                            <p><strong>Cross Platform Apps</strong> <span class="pull-right">70.0%</span></p>
+                        </div>
+                        <div class="tile-progressbar">
+                            <span data-fill="70.0%" style="width: 70.0%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Our Strengths Section -->
+
+    <!-- Why Us Section
+    ======================================================================= -->
+    <section id="why" class="section dark">
+        <div class="container">
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-bolt icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Quick Web Development</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-picture icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Modern Designs</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-magnifier icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Search Engine Friendly</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-lightbulb icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Smart UI / UX</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-watch icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Faster Websites</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-pencil-ruler icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Editable Content</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Why Us Section -->
+
+    <!-- Services Section
+    ======================================================================= -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-display icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Static Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-pencil-ruler-pen icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Dynamic Websites</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-spread-bookmark icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Blogging Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin: 8% 0;">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-gear icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Custom Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-hammer icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Startup Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 dark-section-icons">
+                            <span class="color-icon icon-basic-cup icon-3x"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <h2 class="uppercase">Business + Blog</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Services Section -->
+
+    <!-- Features Section
+    ======================================================================= -->
+    <section id="features" class="section background-image">
+        <div class="container">
+            <div class="row" style="margin-bottom: 8%;">
+                <div class="col-md-12 text-center">
+                    <h1>Website Design &amp; Development</h1>
+                    <p>With latest technologies in the market. In India &amp; all over World.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="black-bg">
+                        <i class="fa fa-html5 fa-4x"></i>
+                        <h4>HTML5 + CSS3 + JQUERY</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="black-bg">
+                        <i class="fa fa-database fa-4x"></i>
+                        <h4>PHP + MYSQL</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="black-bg">
+                        <i class="fa fa-wordpress fa-4x"></i>
+                        <h4>WORDPRESS DEVELOPMENT</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Features Section -->
+
+    <!-- Core Values Section
+    ======================================================================= -->
+    <section id="core-values" class="section">
+        <div class="container">
+            <div class="row grey-bg-row">
+                <div class="col-md-6 text-center">
+                    <div class="grey-bg">
+                        <span class="color-icon icon-basic-webpage-img-txt icon-3x"></span>
+                        <h4>WEBSITE DESIGN COMPANY</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="grey-bg">
+                        <span class="color-icon icon-basic-notebook-pencil icon-3x"></span>
+                        <h4>WEB DEVELOPMENT COMPANY</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row grey-bg-row">
+                <div class="col-md-6 text-center">
+                    <div class="grey-bg">
+                        <span class="color-icon icon-basic-share icon-3x"></span>
+                        <h4>ONLINE MARKETING &amp; SEO</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="grey-bg">
+                        <span class="color-icon icon-basic-cup icon-3x"></span>
+                        <h4>DIGITAL PRODUCT DEVELOPMENT</h4>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Core Values Section -->
+
+    <!-- Portfolio Section
+    ======================================================================= -->
+    <section id="works" class="section dark">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="text-center">Our <span class="bold">Works</span></h1>
+                <div id="gallery" class="gallery">
+                    <ul>
+
+                        <li id="image1" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin1">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin1">
+                                <a href="#image1">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                   
+                        <li id="image2" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin2">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin2">
+                                <a href="#image2">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                    
+                        <li id="image3" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin3">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin3">
+                                <a href="#image3">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                    
+                        <li id="image4" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin4">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin4">
+                                <a href="#image4">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                    
+                        <li id="image5" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin5">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin5">
+                                <a href="#image5">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                    
+                        <li id="image6" class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="mosaicItem">
+                                <a href="#popin6">
+                                    <img src="https://placehold.it/800x800/333" alt="" class="img-responsive" />
+                                    <div class="text">Work Title</div>
+                                </a>
+                            </div>
+                            <div class="popin" id="popin6">
+                                <a href="#image6">
+                                    <div class="galleryOverlay"></div>
+                                    <div class="imgBox"><img src="https://placehold.it/800x500/333" alt="" class="img-responsive" /></div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Portfolio Section -->
+
+    
+
+    <!-- Our Team Section
+    =======================================================================-->
+    <section id="team" class="section">
+        <div class="container">
+            <h1 class="text-center">Our <span class="bold">Professionals</span></h1>
+            <p class="text-center">Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
+            <div class="row team-row" style="margin-top: 4%;">
+
+                <div class="col-md-4 col-sm-6 team-wrap">
+                    <div class="team-member text-center">
+                        <div class="team-img">
+                            <img src="https://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-details text-center">
+                                    <p>
+                                        Our web design team will spend time with our digital marketing team.
+                                    </p>
+                                    <div class="socials mt-20">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="team-title">John Marshall</h3>
+                        <span>Designer</span>
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <div class="col-md-4 col-sm-6 team-wrap">
+                    <div class="team-member text-center">
+                        <div class="team-img">
+                            <img src="https://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-details text-center">
+                                    <p>
+                                        Our web design team will spend time with our digital marketing team.
+                                    </p>
+                                    <div class="socials mt-20">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="team-title">Steve Roberts</h3>
+                        <span>Photographer</span>
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <div class="col-md-4 col-sm-6 team-wrap">
+                    <div class="team-member last text-center">
+                        <div class="team-img">
+                            <img src="https://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-details text-center">
+                                    <p>
+                                        Our web design team will spend time with our digital marketing team.
+                                    </p>
+                                    <div class="socials mt-20">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="team-title">Michael Cartney</h3>
+                        <span>Designer</span>
+                    </div>
+                </div>
+                <!-- end team member -->
+
+            </div>
+        </div>
+    </section>
+    <!-- Ends Our Team Section -->
+
+    <!-- Our Clients Section
+    ======================================================================= -->
+    <div id="clients" class="section" style="background-color: #EEE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/1.png" alt="...">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/2.png" alt="...">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/3.png" alt="...">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/4.png" alt="...">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/5.png" alt="...">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <img class="client-logo img-responsive" src="assets/images/clients/6.png" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ends Our Clients Section -->
+
+    <!-- Testimonials Section
+    ======================================================================= -->
+    <section id="testimonials" class="section dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">What our <span class="bold">Client Say</span></h1>
+                    <div class="carousel slide quote-carousel" data-ride="carousel" id="quote-carousel">
+
+                        <!-- Bottom Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#quote-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner">
+
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="https://api.adorable.io/avatars/100/abott@adorable.png" class="img-circle" alt="Testimonial-User-1">
+                                        <br>
+                                        <br><strong>John Doe</strong>
+                                        <br><small>CEO, Virtual World</small>
+                                        <br>
+                                        <br>
+                                        <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.&rdquo;</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="https://api.adorable.io/avatars/100/john@adorable.png" class="img-circle" alt="Testimonial-User-2">
+                                        <br>
+                                        <br><strong>John Doe</strong>
+                                        <br><small>CEO, Virtual World</small>
+                                        <br>
+                                        <br>
+                                        <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&rdquo;</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Quote 3 -->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="https://api.adorable.io/avatars/100/jane@adorable.png" class="img-circle" alt="Testimonial-User-3">
+                                        <br>
+                                        <br><strong>John Doe</strong>
+                                        <br><small>CEO, Virtual World</small>
+                                        <br>
+                                        <br>
+                                        <p>&ldquo;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.&rdquo;</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Testimonials Section -->
+
+    <!-- Corporate Video Section
+    ======================================================================= -->
+    <section id="video" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Watch our <span class="bold">Corporate Video</span></h1>
+                    <a href="#" data-toggle="modal" data-target="#corporateVideo">
+                        <img src="assets/images/music_play_button.svg" style="margin: 2% 0;" alt="Play-Button">
+                    </a>
+
+                    <!-- Modal -->
+                    <div id="corporateVideo" class="modal fade corporateVideo" role="dialog">
+                      <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content modal-video-content">
+                          <div class="modal-header modal-video-header">
+                            <button type="button" class="close modal-close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body modal-video-body">
+                            <!-- You can use embedded YouTube iframe or your own video file -->
+
+                            <!-- <iframe class="video-frame" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe> -->
+                            
+                            <!-- OR -->
+
+                            <video class="video-frame" controls>
+                              <source src="assets/video/MP4/Working-Space.mp4" type="video/mp4">
+                              <source src="assets/video/MP4/Working-Space.ogg" type="video/ogg">
+                              Your browser does not support the video tag.
+                            </video>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Corporate Video Section -->
+
+    <!-- Request for Quote Section
+    ======================================================================= -->
+    <section id="request-quote" class="section colored-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="">
+                        <h1>Have An Idea? We’re Here To Help You Manage Your Work!</h1>
+                        <a href="#" data-toggle="modal" data-target="#contactus" class="btn btn-default btn-outline btn-lg" style="margin: 3% 0">REQUEST A QUOTE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Request for Quote Section -->
+
+    <!-- Footer Section
+    ======================================================================= -->
+    <section class="section dark footer">
+        <footer>
+            <div class="container">
+                <!-- Footer About -->
+                <div class="row text-center" style="margin: 8% 0;">
+                    <h1 class="color-text">Liner<span class="bold">Pro</span></h1>
+                    <p style="margin-top: 3%;">
+                        • Vadodara Branch •
+                        <br> Vasna Road • Near D-Mart
+                        <br> Near Raneshwar • Vadodara • India
+                    </p>
+
+                    <p style="margin-top: 3%;">
+                        • Mumbai Branch •
+                        <br> Cross Road • Near Ellise Bridge
+                        <br> Behind Synergy • Mumbai • India
+                    </p>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <ul class="social-icons">
+                            <li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                            <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Copyright Bottom -->
+                <div class="row copyright" style="margin-top: 8%;">
+                    <div class="col-md-4">
+                        <p>© Copyright 2017 | Liner Pro</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <p>Website Design &amp; Development Company</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <p><a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Ends Footer Section -->
+
+    <!-- Back top top button
+    ======================================================================= -->
+    <a href="#home" class="cd-top">Top</a>
+
+    <!-- jQuery and Bootstrap JS
+    ======================================================================= -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Main Theme JS
+    ======================================================================= -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- End Document
+    ======================================================================= -->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+/* Background image generated from: https://qrohlf.com/trianglify-generator/ */
+
+::selection {
+    background-color: #0088CC;
+}
+
+.navbar-brand span {
+    color: #0088CC;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #0088CC;
+}
+
+.section.background-image {
+    background-image: url(../images/polygonal-bg-blue.png);
+}
+
+.btn-outline:hover {
+    color: #0088CC;
+}
+
+.btn-outline:focus {
+    color: #0088CC;
+}
+
+.color-text {
+    color: #0088CC;
+}
+
+.color-icon {
+    color: #0088CC;
+}
+
+.submit-btn {
+    background-color: #0088CC;
+    border-color: #0088CC;
+}
+
+.submit-btn:hover {
+    border-color: #0088CC;
+    background-color: #0099DD;
+}
+
+.img-box ul li {
+    border: 1px solid #0088CC;
+}
+
+.img-box a:hover li {
+    color: #0088CC;
+}
+
+a {
+    color: #0088CC;
+}
+
+a:hover {
+    color: #0088CC;
+}
+
+.colored-section{
+    background-color: #0088CC;
+}
+
+.card .name {
+    color: #0088CC;
+}
+
+.card .stats{
+    color: #0088CC;
+}
+
+.t-facebook, .t-twitter, .t-google{
+    color: #0088CC !important;
+}
+
+.socials a:hover i {
+    background-color: #0088CC;
+}

@@ -1,0 +1,80 @@
+/* Background image generated from: https://qrohlf.com/trianglify-generator/ */
+
+::selection {
+    background-color: #FF3232;
+}
+
+.navbar-brand span {
+    color: #FF3232;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #FF3232;
+}
+
+.section.background-image {
+    background-image: url(../images/polygonal-bg-red.png);
+}
+
+.btn-outline:hover {
+    color: #FF3232;
+}
+
+.btn-outline:focus {
+    color: #FF3232;
+}
+
+.color-text {
+    color: #FF3232;
+}
+
+.color-icon {
+    color: #FF3232;
+}
+
+.submit-btn {
+    background-color: #FF3232;
+    border-color: #FF3232;
+}
+
+.submit-btn:hover {
+    border-color: #FF3232;
+    background-color: #FF6565;
+}
+
+.img-box ul li {
+    border: 1px solid #FF3232;
+}
+
+.img-box a:hover li {
+    color: #FF3232;
+}
+
+a {
+    color: #FF3232;
+}
+
+a:hover {
+    color: #FF3232;
+}
+
+.colored-section{
+    background-color: #FF3232;
+    color: #fff;
+}
+
+.card .name {
+    color: #FF3232;
+}
+
+.card .stats{
+    color: #FF3232;
+}
+
+.t-facebook, .t-twitter, .t-google{
+    color: #FF3232 !important;
+}
+
+.socials a:hover i {
+    background-color: #FF3232;
+}
