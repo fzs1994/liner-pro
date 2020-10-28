@@ -8,10 +8,11 @@
   color: #daa520;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav a.active,
+.navbar-default .navbar-nav a:focus,
+.navbar-default .navbar-nav a:hover {
   background-color: #daa520;
+  color: #FFF !important;
 }
 
 .section.background-image {
