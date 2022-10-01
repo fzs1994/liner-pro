@@ -999,34 +999,44 @@ ul.navbar-nav .btn {
 }
 
 /* 10. Testimonials Carousel */
-.quote-carousel {
-  padding: 0 10px 30px 10px;
+.review-author {
+  font-size: 22px;
+  font-weight: 500;
   margin-top: 30px;
-  text-align: center;
+  text-transform: uppercase;
 }
 
-/* indicator position */
-
-.quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
+.carousel-indicators {
+  bottom: -58px;
 }
 
-/* indicator color */
-
-.quote-carousel .carousel-indicators li {
-  background: #c0c0c0;
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* active indicator */
+.carousel-indicators .active {
+  background-color: #fff;
+}
 
-.quote-carousel .carousel-indicators .active {
-  background: #333333;
-  height: 10px;
-  width: 10px;
-  margin-bottom: 1px;
+@media (max-width: 575px) {
+  .review {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25.451 25.451' fill='%23000'%3E%3Cpath d='M20.982.521v2.006L8.57 12.315c-.121.101-.195.251-.195.41s.074.311.195.41l12.412 9.79v2.005a.52.52 0 01-.297.469.519.519 0 01-.549-.061L4.664 13.136a.531.531 0 010-.82L20.136.113a.523.523 0 01.846.408z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512.005 512.005' fill='%23000'%3E%3Cpath d='M388.418 240.923L153.751 6.256c-8.341-8.341-21.824-8.341-30.165 0s-8.341 21.824 0 30.165L343.17 256.005 123.586 475.589c-8.341 8.341-8.341 21.824 0 30.165a21.275 21.275 0 0015.083 6.251 21.277 21.277 0 0015.083-6.251l234.667-234.667c8.34-8.34 8.34-21.823-.001-30.164z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 45px;
+  height: 45px;
 }
 
 /* 11. Footer Styles*/
