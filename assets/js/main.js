@@ -22,7 +22,7 @@ $(function ($) {
   });
 
   // Smooth Scroll
-  $(document).on('click', '.nav-links', function (event) {
+  $(document).on('click', '.nav-link', function (event) {
     event.preventDefault();
 
     $('html, body').animate(
