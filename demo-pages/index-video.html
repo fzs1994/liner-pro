@@ -40,20 +40,20 @@
     <!-- CSS
     ====================================================================== -->
     <!-- Bootstrap Framework -->
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./../assets/bootstrap/css/bootstrap.min.css" />
     <!-- CDN Link to Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Line Icons (https://linea.io/) -->
-    <link rel="stylesheet" type="text/css" href="assets/linea-fonts/basic-icons/styles-basic.css" />
+    <link rel="stylesheet" type="text/css" href="./../assets/linea-fonts//basic-icons/styles-basic.css" />
     <!-- Main Theme Styles -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./../assets/css/main.css" />
 
     <!-- Color Options (If no theme selected, default Green Theme will be applied)
     ====================================================================== -->
-    <link rel="stylesheet" type="text/css" href="assets/css/yellow-theme.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/red-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/blue-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/custom-theme.css"> -->
+    <link rel="stylesheet" type="text/css" href="./../assets/css/yellow-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/red-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/blue-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/custom-theme.css"> -->
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -69,12 +69,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#slider-home">Liner<span>Pro</span></a>
+            <a class="navbar-brand" href="#video-home">Liner<span>Pro</span></a>
           </div>
 
           <div class="collapse navbar-collapse" id="navbar-collapse-2">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a class="nav-links" href="#slider-home">Home</a></li>
+              <li class="active"><a class="nav-links" href="#video-home">Home</a></li>
               <li><a class="nav-links" href="#approach">Our Approach</a></li>
               <li><a class="nav-links" href="#why">Why Us</a></li>
               <li><a class="nav-links" href="#services">Services</a></li>
@@ -125,48 +125,29 @@
 
     <!-- Home Hero Section
     ======================================================================= -->
-    <section id="slider-home" class="slider-home-section">
-      <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#bs-carousel" data-slide-to="1"></li>
-          <li data-target="#bs-carousel" data-slide-to="2"></li>
-        </ol>
+    <section id="video-home" class="video-home-section">
+      <div class="homepage-hero-module">
+        <div class="video-container">
+          <div class="filter">HI</div>
+          <video autoplay loop class="fillWidth">
+            <source src="./../assets/video/MP4/Working-Space.mp4" type="video/mp4" />
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="./../assets/video/WEBM/Working-Space.webm" type="video/webm" />
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+          <div class="poster hidden">
+            <img src="./../assets/video/snapshots/Working-Space.jpg" alt="" />
+          </div>
+        </div>
+      </div>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item slides active">
-            <div class="slide-1"></div>
-            <div class="hero">
-              <div>
-                <h1>We are creative</h1>
-                <h3>Get start your next awesome project</h3>
-              </div>
-              <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
-              <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
-              <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
-            </div>
-          </div>
-          <div class="item slides">
-            <div class="slide-2"></div>
-            <div class="hero">
-              <div>
-                <h1>We are smart</h1>
-                <h3>Get start your next awesome project</h3>
-              </div>
-              <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
-              <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
-              <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
-            </div>
-          </div>
-          <div class="item slides">
-            <div class="slide-3"></div>
-            <div class="hero">
-              <div>
-                <h1>We are amazing</h1>
-                <h3>Get start your next awesome project</h3>
-              </div>
+      <div class="video-overlay">
+        <div class="container">
+          <div class="row" style="margin-top: 4%">
+            <div class="col-md-12 text-center">
+              <h1>Website Design &amp; Development</h1>
+              <strong>SIMPLE. YET, EFFECTIVE &amp; IMPRESSIVE!</strong>
+              <p>We build an awesome website quickly; which you can control easily!</p>
               <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
               <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
               <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
@@ -775,22 +756,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/1.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/1.png" alt="..." />
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/2.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/2.png" alt="..." />
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/3.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/3.png" alt="..." />
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/4.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/4.png" alt="..." />
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/5.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/5.png" alt="..." />
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12">
-            <img class="client-logo img-responsive" src="assets/images/clients/6.png" alt="..." />
+            <img class="client-logo img-responsive" src="./../assets/images/clients/6.png" alt="..." />
           </div>
         </div>
       </div>
@@ -932,7 +913,7 @@
           <div class="col-md-12 text-center">
             <h1>Watch our <span class="bold">Corporate Video</span></h1>
             <a href="#" data-toggle="modal" data-target="#corporateVideo">
-              <img src="assets/images/music_play_button.svg" style="margin: 2% 0" alt="Play-Button" />
+              <img src="./../assets/images/music_play_button.svg" style="margin: 2% 0" alt="Play-Button" />
             </a>
 
             <!-- Modal -->
@@ -951,8 +932,8 @@
                     <!-- OR -->
 
                     <video class="video-frame" controls>
-                      <source src="assets/video/MP4/Working-Space.mp4" type="video/mp4" />
-                      <source src="assets/video/MP4/Working-Space.ogg" type="video/ogg" />
+                      <source src="./../assets/video/MP4/Working-Space.mp4" type="video/mp4" />
+                      <source src="./../assets/video/MP4/Working-Space.ogg" type="video/ogg" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -1058,11 +1039,11 @@
     <!-- jQuery and Bootstrap JS
     ======================================================================= -->
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./../assets/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Main Theme JS
     ======================================================================= -->
-    <script src="assets/js/main.js"></script>
+    <script src="./../assets/js/main.js"></script>
 
     <!-- End Document
     ======================================================================= -->
