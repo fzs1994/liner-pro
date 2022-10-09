@@ -81,7 +81,7 @@ $(function ($) {
 
   // If local video file
   $('.corporateVideo').on('hide.bs.modal', function (e) {
-    $(this).find('video')[0].pause();
+    $(this).find('video')[0]?.pause();
   });
 
   // Send contact form email
