@@ -977,6 +977,11 @@ ul.navbar-nav .btn {
 }
 
 /* 09. Corporate Video Modal*/
+
+#corporate-video {
+  background-color: #eee;
+}
+
 .modal-video-body {
   padding: 0;
 }
