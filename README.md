@@ -34,16 +34,16 @@ Liner comes with three versions with four color combinations. Just choose your s
 
 Liner comes with three versions:
 
-1.  [Default Layout](https://www.linerpro.ml/index.html)
-2.  [Slider Layout](https://www.linerpro.ml/index-slider.html)
-3.  [Background Video Layout](https://www.linerpro.ml/index-video.html)
+1.  [Default Layout](https://linerpro.ml/demo/index.html)
+2.  [Slider Layout](https://www.linerpro.ml/demo/index-slider.html)
+3.  [Background Video Layout](https://www.linerpro.ml/demo/index-video.html)
 
 Its not just three!! Liner comes with four color presets too:
 
-1.  [Vegie Green](https://www.linerpro.ml/index-green.html)
-2.  [Dust Yellow](https://www.linerpro.ml/index-yellow.html)
-3.  [Lust Red](https://www.linerpro.ml/index-red.html)
-4.  [Mystic Blue](https://www.linerpro.ml/index-blue.html)
+1.  [Vegie Green](https://www.linerpro.ml/demo/index-green.html)
+2.  [Dust Yellow](https://www.linerpro.ml/demo/index-yellow.html)
+3.  [Lust Red](https://www.linerpro.ml/demo/index-red.html)
+4.  [Mystic Blue](https://www.linerpro.ml/demo/index-blue.html)
 
 Just choose your styles and start building!
 
