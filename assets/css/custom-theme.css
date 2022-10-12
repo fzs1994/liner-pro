@@ -12,10 +12,10 @@ Check compatibility here: https://caniuse.com/css-variables ) */
   color: var(--custom-color);
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: var(--custom-color);
+.navbar-default .navbar-nav a.active,
+.navbar-default .navbar-nav a:hover {
+  border-bottom: 3px solid var(--custom-color);
+  transition: 0.1s all linear;
 }
 
 /* Background image generated from: https://qrohlf.com/trianglify-generator/ */
