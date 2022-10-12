@@ -9,10 +9,9 @@
 }
 
 .navbar-default .navbar-nav a.active,
-.navbar-default .navbar-nav a:focus,
 .navbar-default .navbar-nav a:hover {
-  background-color: #daa520;
-  color: #fff !important;
+  border-bottom: 3px solid #daa520;
+  transition: 0.1s all linear;
 }
 
 .section.background-image {
