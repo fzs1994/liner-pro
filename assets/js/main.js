@@ -1,7 +1,7 @@
 $(function ($) {
   'use strict';
 
-  // Smooth Parallax Effect
+  // Smooth Parallax Effect for background image
   $(document).on('scroll', function () {
     const $movebg = $(window).scrollTop() * -0.3;
     $('.background-image').css('background-positionY', $movebg + 'px');
@@ -21,7 +21,7 @@ $(function ($) {
     scaleBannerVideoSize('.video-container video');
   });
 
-  // Smooth Scroll
+  // Smooth Scroll on navigation link clicks
   $(document).on('click', '.nav-link', function (event) {
     event.preventDefault();
 
@@ -84,7 +84,7 @@ $(function ($) {
     $(this).find('video')[0]?.pause();
   });
 
-  // Send contact form email
+  // Send contact form email. Change your email in mail.php
   $('#contact').on('submit', function (e) {
     e.preventDefault();
 
@@ -124,6 +124,7 @@ $(function ($) {
   });
 });
 
+// For responsive hero background video
 function scaleVideoContainer() {
   const height = $(window).height() + 5;
   const unitHeight = parseInt(height) + 'px';
@@ -144,8 +145,6 @@ function scaleBannerVideoSize(element) {
     windowHeight = $(window).height() + 5,
     videoWidth,
     videoHeight;
-
-  // console.log(windowHeight);
 
   $(element).each(function () {
     const videoAspectRatio = $(this).data('height') / $(this).data('width');
