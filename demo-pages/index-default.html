@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <title>LinerPro | One Page Professional Bootstrap Website Template</title>
     <meta name="description" content="LinerPro One page Professional responsive website template based on Bootstrap Framework" />
-    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, responsive, template" />
+    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, bootstrap 4, responsive, template" />
     <meta name="author" content="Liner Pro. Faizan Saiyed" />
 
     <!-- Mobile Specific Meta
@@ -51,9 +51,9 @@
     <!-- Color Options (If no theme selected, default Green Theme will be applied)
     ====================================================================== -->
     <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/yellow-theme.css" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/red-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/blue-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/custom-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/red-theme.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./../assets/css/blue-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/custom-theme.css" /> -->
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -63,6 +63,7 @@
       <nav class="navbar navbar-expand-lg fixed-top navbar-light justify-content-between navbar-default">
         <a class="navbar-brand" href="#home">Liner<span>Pro</span></a>
 
+        <!-- Mobile Menu Icon -->
         <button
           class="navbar-toggler"
           type="button"
@@ -75,11 +76,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#approach">Our Approach</a></li>
-            <li class="nav-item"><a class="nav-link" href="#why">Why Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
             <li class="nav-item"><a class="nav-link" href="#works">Portfolio</a></li>
@@ -92,7 +94,7 @@
     </header>
     <!-- Ends Navbar Section -->
 
-    <!-- Contact Form Modal
+    <!-- Contact Form Modal. Check mail.php for your email address
     ======================================================================= -->
     <div id="contactus" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg">
@@ -136,9 +138,9 @@
             <h1>Website Design &amp; Development</h1>
             <strong>SIMPLE. YET, EFFECTIVE &amp; IMPRESSIVE!</strong>
             <p>We build an awesome website quickly; which you can control easily!</p>
-            <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">DEFAULT DEMO</a>
-            <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">SLIDER DEMO</a>
-            <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">VIDEO DEMO</a>
+            <a href="./index.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">DEFAULT DEMO</a>
+            <a href="./demo-pages/index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">SLIDER DEMO</a>
+            <a href="./demo-pages/index-video.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">VIDEO DEMO</a>
           </div>
         </div>
       </div>
@@ -181,7 +183,7 @@
 
     <!-- Our Strengths Section
     ======================================================================= -->
-    <section id="ourstrenghts" class="section colored-section py-6">
+    <section id="our-strength" class="section colored-section py-6">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -247,7 +249,7 @@
 
     <!-- Why Us Section
     ======================================================================= -->
-    <section id="why" class="section dark">
+    <section id="why-us" class="section dark">
       <div class="container">
         <div class="row my-5">
           <div class="col-md-6">
@@ -737,80 +739,6 @@
     </section>
     <!-- Ends Our Team Section -->
 
-    <!-- Corporate Video Section
-    ======================================================================= -->
-    <section id="corporate-video" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h1>Watch our <span class="bold">Corporate Video</span></h1>
-            <a href="#" data-toggle="modal" data-target="#corporateVideo">
-              <img class="my-2" src="./../assets/images/music_play_button.svg" alt="Play-Button" />
-            </a>
-
-            <!-- Modal -->
-            <div id="corporateVideo" class="modal fade corporateVideo" role="dialog">
-              <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content modal-video-content">
-                  <div class="modal-header modal-video-header">
-                    <button type="button" class="close modal-close" data-dismiss="modal">&times;</button>
-                  </div>
-                  <div class="modal-body modal-video-body">
-                    <!-- You can use embedded YouTube iframe or your own video file -->
-
-                    <!-- <iframe
-                      title="Corporate Video"
-                      class="video-frame"
-                      src="https://www.youtube.com/embed/aVS4W7GZSq0"
-                      allowfullscreen
-                    ></iframe> -->
-
-                    <!-- OR -->
-
-                    <video class="video-frame" controls>
-                      <source src="./../assets/video/MP4/Working-Space.mp4" type="video/mp4" />
-                      <source src="./../assets/video/MP4/Working-Space.ogg" type="video/ogg" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Ends Corporate Video Section -->
-
-    <!-- Our Clients Section
-    ======================================================================= -->
-    <div id="clients" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/1.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/2.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/3.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/4.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/5.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-fluid" src="./../assets/images/clients/6.png" alt="..." />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Ends Our Clients Section -->
-
     <!-- Testimonials Section
     ======================================================================= -->
     <section id="testimonials" class="section dark">
@@ -938,6 +866,79 @@
     </section>
     <!-- Ends Testimonials Section -->
 
+    <!-- Corporate Video Section
+    ======================================================================= -->
+    <section id="corporate-video" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Watch our <span class="bold">Corporate Video</span></h1>
+            <a href="#" data-toggle="modal" data-target="#corporateVideo">
+              <img class="my-2" src="./../assets/images/music_play_button.svg" alt="Play-Button" />
+            </a>
+
+            <!-- Modal -->
+            <div id="corporateVideo" class="modal fade corporateVideo" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content modal-video-content">
+                  <div class="modal-header modal-video-header">
+                    <button type="button" class="close modal-close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body modal-video-body">
+                    <!-- You can use embedded YouTube iframe or your own video file -->
+                    <!-- <iframe
+                      title="Corporate Video"
+                      class="video-frame"
+                      src="https://www.youtube.com/embed/aVS4W7GZSq0"
+                      allowfullscreen
+                    ></iframe> -->
+
+                    <!-- OR you can use video file -->
+
+                    <video class="video-frame" controls>
+                      <source src="./../assets/video/MP4/Working-Space.mp4" type="video/mp4" />
+                      <source src="./../assets/video/MP4/Working-Space.ogg" type="video/ogg" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ends Corporate Video Section -->
+
+    <!-- Our Clients Section
+    ======================================================================= -->
+    <div id="clients" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/1.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/2.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/3.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/4.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/5.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/6.png" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ends Our Clients Section -->
+
     <!-- Request for Quote Section
     ======================================================================= -->
     <section id="request-quote" class="section colored-section">
@@ -945,7 +946,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div class="">
-              <h1>Have An Idea? We’re Here To Help You Manage Your Work!</h1>
+              <h1>Have An Idea? We're Here To Help You Manage Your Work!</h1>
               <a href="#" data-toggle="modal" data-target="#contactus" class="btn btn-default btn-outline btn-lg my-3">REQUEST A QUOTE</a>
             </div>
           </div>
@@ -1017,7 +1018,7 @@
             </div>
 
             <div class="col-md-4 text-center">
-              <p>Website Design &amp; Development Company</p>
+              <p>With ❤️ from India!</p>
             </div>
 
             <div class="col-md-4 text-center">
