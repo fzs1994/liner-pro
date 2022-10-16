@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <title>LinerPro | One Page Professional Bootstrap Website Template</title>
     <meta name="description" content="LinerPro One page Professional responsive website template based on Bootstrap Framework" />
-    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, responsive, template" />
+    <meta name="keywords" content="Liner, pro, HTML, CSS, XML, JavaScript, bootstrap, framework, bootstrap 4, responsive, template" />
     <meta name="author" content="Liner Pro. Faizan Saiyed" />
 
     <!-- Mobile Specific Meta
@@ -50,55 +50,61 @@
 
     <!-- Color Options (If no theme selected, default Green Theme will be applied)
     ====================================================================== -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/yellow-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/red-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/blue-theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/custom-theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/yellow-theme.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/red-theme.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/blue-theme.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./../assets/css/custom-theme.css" /> -->
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navbar Section
     ===================================================================== -->
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-modal" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#home">Liner<span>Pro</span></a>
-          </div>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light justify-content-between navbar-default">
+        <a class="navbar-brand" href="#home">Liner<span>Pro</span></a>
 
-          <div class="collapse navbar-collapse" id="navbar-collapse-2">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a class="nav-links" href="#home">Home</a></li>
-              <li><a class="nav-links" href="#approach">Our Approach</a></li>
-              <li><a class="nav-links" href="#why">Why Us</a></li>
-              <li><a class="nav-links" href="#services">Services</a></li>
-              <li><a class="nav-links" href="#features">Features</a></li>
-              <li><a class="nav-links" href="#works">Portfolio</a></li>
-              <li><a class="nav-links" href="#team">Team</a></li>
-              <li><a class="nav-links" href="#testimonials">Testimonials</a></li>
-              <li><a class="nav-links" href="#" data-toggle="modal" data-target="#contactus">Contact</a></li>
-            </ul>
-          </div>
+        <!-- Mobile Menu Icon -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#approach">Our Approach</a></li>
+            <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#works">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#contactus">Contact</a></li>
+          </ul>
         </div>
       </nav>
     </header>
     <!-- Ends Navbar Section -->
 
-    <!-- Contact Form Modal
+    <!-- Contact Form Modal. Check mail.php for your email address
     ======================================================================= -->
     <div id="contactus" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg">
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title"><span class="bold">Contact</span> Us</h4>
+            <h5 class="modal-title"><span class="bold">Contact</span> Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <form id="contact" name="contact" action="mail.php" method="POST">
             <div class="modal-body">
@@ -127,14 +133,14 @@
     ======================================================================= -->
     <section id="home" class="section home-section background-image">
       <div class="container">
-        <div class="row" style="margin-bottom: 8%">
+        <div class="row mb-4">
           <div class="col-md-12 text-center">
             <h1>Website Design &amp; Development</h1>
             <strong>SIMPLE. YET, EFFECTIVE &amp; IMPRESSIVE!</strong>
             <p>We build an awesome website quickly; which you can control easily!</p>
-            <a href="index.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">DEFAULT DEMO</a>
-            <a href="index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">SLIDER DEMO</a>
-            <a href="index-video.html" class="btn btn-default btn-outline btn-lg contact-btn" style="margin: 3% 0">VIDEO DEMO</a>
+            <a href="./index.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">DEFAULT DEMO</a>
+            <a href="./demo-pages/index-slider.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">SLIDER DEMO</a>
+            <a href="./demo-pages/index-video.html" class="btn btn-default btn-outline btn-lg contact-btn my-3">VIDEO DEMO</a>
           </div>
         </div>
       </div>
@@ -143,17 +149,17 @@
 
     <!-- Our Approach Section
     ======================================================================= -->
-    <section id="approach" class="section" style="padding: 7% 0">
+    <section id="approach" class="section py-6">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
             <h1>New generation websites by <span class="bold">New generation designers.</span></h1>
-            <h1>For new generation entrepreneurs.</h1>
+            <h3>For new generation entrepreneurs.</h3>
             <p>With latest technologies &amp; design trends!</p>
           </div>
         </div>
 
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-6 text-center">
             <span class="color-icon icon-basic-webpage-multiple icon-4x"></span>
             <h3 class="uppercase">RESPONSIVE, USER-FRIENDLY DESIGN</h3>
@@ -177,7 +183,7 @@
 
     <!-- Our Strengths Section
     ======================================================================= -->
-    <section id="ourstrenghts" class="section colored-section" style="padding: 7% 0">
+    <section id="our-strength" class="section colored-section py-6">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -243,9 +249,9 @@
 
     <!-- Why Us Section
     ======================================================================= -->
-    <section id="why" class="section dark">
+    <section id="why-us" class="section dark">
       <div class="container">
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-2 dark-section-icons">
@@ -277,7 +283,7 @@
           </div>
         </div>
 
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-2 dark-section-icons">
@@ -309,7 +315,7 @@
           </div>
         </div>
 
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-2 dark-section-icons">
@@ -348,7 +354,7 @@
     ======================================================================= -->
     <section id="services" class="section">
       <div class="container">
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-4">
             <div class="row">
               <div class="col-md-2 dark-section-icons">
@@ -395,7 +401,7 @@
           </div>
         </div>
 
-        <div class="row" style="margin: 8% 0">
+        <div class="row my-5">
           <div class="col-md-4">
             <div class="row">
               <div class="col-md-2 dark-section-icons">
@@ -449,7 +455,7 @@
     ======================================================================= -->
     <section id="features" class="section background-image">
       <div class="container">
-        <div class="row" style="margin-bottom: 8%">
+        <div class="row mb-5">
           <div class="col-md-12 text-center">
             <h1>Website Design &amp; Development</h1>
             <p>With latest technologies in the market. In India &amp; all over World.</p>
@@ -482,7 +488,7 @@
           <div class="col-md-4 text-center">
             <div class="black-bg">
               <i class="fa fa-wordpress fa-4x"></i>
-              <h4>WORDPRESS DEVELOPMENT</h4>
+              <h4>WORDPRESS</h4>
               <p class="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam.
@@ -502,7 +508,7 @@
           <div class="col-md-6 text-center">
             <div class="grey-bg">
               <span class="color-icon icon-basic-webpage-img-txt icon-3x"></span>
-              <h4>WEBSITE DESIGN COMPANY</h4>
+              <h4>WEBSITE DESIGN</h4>
               <p class="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -513,7 +519,7 @@
           <div class="col-md-6 text-center">
             <div class="grey-bg">
               <span class="color-icon icon-basic-notebook-pencil icon-3x"></span>
-              <h4>WEB DEVELOPMENT COMPANY</h4>
+              <h4>WEB DEVELOPMENT</h4>
               <p class="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -556,18 +562,18 @@
         <div class="col-md-12">
           <h1 class="text-center">Our <span class="bold">Works</span></h1>
           <div id="gallery" class="gallery">
-            <ul>
+            <ul class="row">
               <li id="image1" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin1">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin1">
                   <a href="#image1">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -575,14 +581,14 @@
               <li id="image2" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin2">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin2">
                   <a href="#image2">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -590,14 +596,14 @@
               <li id="image3" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin3">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin3">
                   <a href="#image3">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -605,14 +611,14 @@
               <li id="image4" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin4">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin4">
                   <a href="#image4">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -620,14 +626,14 @@
               <li id="image5" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin5">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin5">
                   <a href="#image5">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -635,14 +641,14 @@
               <li id="image6" class="col-md-4 col-sm-6 col-xs-12">
                 <div class="mosaicItem">
                   <a href="#popin6">
-                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-responsive" />
+                    <img src="https://via.placeholder.com/800x800/333" alt="" class="img-fluid" />
                     <div class="text">Work Title</div>
                   </a>
                 </div>
                 <div class="popin" id="popin6">
                   <a href="#image6">
                     <div class="galleryOverlay"></div>
-                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-responsive" /></div>
+                    <div class="imgBox"><img src="https://via.placeholder.com/800x500/333" alt="" class="img-fluid" /></div>
                   </a>
                 </div>
               </li>
@@ -662,7 +668,7 @@
           Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. Nam pulvinar vitae neque et porttitor. Praesent sed nisi
           eleifend.
         </p>
-        <div class="row team-row" style="margin-top: 4%">
+        <div class="row team-row mt-3">
           <div class="col-md-4 col-sm-6 team-wrap">
             <div class="team-member text-center">
               <div class="team-img">
@@ -732,34 +738,6 @@
       </div>
     </section>
     <!-- Ends Our Team Section -->
-
-    <!-- Our Clients Section
-    ======================================================================= -->
-    <div id="clients" class="section" style="background-color: #eee">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/1.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/2.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/3.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/4.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/5.png" alt="..." />
-          </div>
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <img class="client-logo img-responsive" src="./../assets/images/clients/6.png" alt="..." />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Ends Our Clients Section -->
 
     <!-- Testimonials Section
     ======================================================================= -->
@@ -890,13 +868,13 @@
 
     <!-- Corporate Video Section
     ======================================================================= -->
-    <section id="video" class="section">
+    <section id="corporate-video" class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
             <h1>Watch our <span class="bold">Corporate Video</span></h1>
             <a href="#" data-toggle="modal" data-target="#corporateVideo">
-              <img src="./../assets/images/music_play_button.svg" style="margin: 2% 0" alt="Play-Button" />
+              <img class="my-2" src="./../assets/images/music_play_button.svg" alt="Play-Button" />
             </a>
 
             <!-- Modal -->
@@ -909,10 +887,14 @@
                   </div>
                   <div class="modal-body modal-video-body">
                     <!-- You can use embedded YouTube iframe or your own video file -->
+                    <!-- <iframe
+                      title="Corporate Video"
+                      class="video-frame"
+                      src="https://www.youtube.com/embed/aVS4W7GZSq0"
+                      allowfullscreen
+                    ></iframe> -->
 
-                    <!-- <iframe class="video-frame" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe> -->
-
-                    <!-- OR -->
+                    <!-- OR you can use video file -->
 
                     <video class="video-frame" controls>
                       <source src="./../assets/video/MP4/Working-Space.mp4" type="video/mp4" />
@@ -929,6 +911,34 @@
     </section>
     <!-- Ends Corporate Video Section -->
 
+    <!-- Our Clients Section
+    ======================================================================= -->
+    <div id="clients" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/1.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/2.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/3.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/4.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/5.png" alt="..." />
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <img class="client-logo img-fluid" src="./../assets/images/clients/6.png" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ends Our Clients Section -->
+
     <!-- Request for Quote Section
     ======================================================================= -->
     <section id="request-quote" class="section colored-section">
@@ -936,10 +946,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div class="">
-              <h1>Have An Idea? We’re Here To Help You Manage Your Work!</h1>
-              <a href="#" data-toggle="modal" data-target="#contactus" class="btn btn-default btn-outline btn-lg" style="margin: 3% 0"
-                >REQUEST A QUOTE</a
-              >
+              <h1>Have An Idea? We're Here To Help You Manage Your Work!</h1>
+              <a href="#" data-toggle="modal" data-target="#contactus" class="btn btn-default btn-outline btn-lg my-3">REQUEST A QUOTE</a>
             </div>
           </div>
         </div>
@@ -953,21 +961,28 @@
       <footer>
         <div class="container">
           <!-- Footer About -->
-          <div class="row text-center" style="margin: 8% 0">
-            <h1 class="color-text">Liner<span class="bold">Pro</span></h1>
-            <p style="margin-top: 3%">
-              • Vadodara Branch •
-              <br />
-              Vasna Road • Near D-Mart <br />
-              Near Raneshwar • Vadodara • India
-            </p>
+          <div class="text-center my-4">
+            <h1 class="">Liner<span class="color-text bold">Pro</span></h1>
 
-            <p style="margin-top: 3%">
-              • Mumbai Branch •
-              <br />
-              Cross Road • Near Ellise Bridge <br />
-              Behind Synergy • Mumbai • India
-            </p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-3">
+                  • Vadodara Branch •
+                  <br />
+                  Vasna Road • Near D-Mart <br />
+                  Near Raneshwar • Vadodara • India
+                </p>
+              </div>
+
+              <div class="col-6">
+                <p class="mt-3">
+                  • Mumbai Branch •
+                  <br />
+                  Cross Road • Near Ellise Bridge <br />
+                  Behind Synergy • Mumbai • India
+                </p>
+              </div>
+            </div>
           </div>
 
           <!-- Social Icons -->
@@ -997,13 +1012,13 @@
           </div>
 
           <!-- Copyright Bottom -->
-          <div class="row copyright" style="margin-top: 8%">
+          <div class="row copyright mt-5">
             <div class="col-md-4">
               <p>© Copyright 2017 | Liner Pro</p>
             </div>
 
             <div class="col-md-4 text-center">
-              <p>Website Design &amp; Development Company</p>
+              <p>With ❤️ from India!</p>
             </div>
 
             <div class="col-md-4 text-center">
@@ -1022,6 +1037,7 @@
     <!-- jQuery and Bootstrap JS
     ======================================================================= -->
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="./../assets/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Main Theme JS
